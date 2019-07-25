@@ -31,6 +31,8 @@ export class ListPage implements OnInit {
   }
 
   ngOnInit() {
+    console.log('inside list page');
+    //angular life cycles
   }
   // add back when alpha.4 is out
   // navigate(item) {
