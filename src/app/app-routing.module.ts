@@ -13,9 +13,10 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomePageModule'
   },
   {
-    path: 'list',
+    path: 'employee',
     loadChildren: './list/list.module#ListPageModule'
   }
+  
 ];
 
 @NgModule({
