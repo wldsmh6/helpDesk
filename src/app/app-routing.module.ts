@@ -12,8 +12,9 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomePageModule'
   },
   {
-    path: 'list',
+    path: 'officer',
     loadChildren: './list/list.module#ListPageModule'
+
   }
 ];
 
